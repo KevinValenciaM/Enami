@@ -23,14 +23,14 @@ time
 os  
 google.cloud  
 
-Proceso 2 Optris:
-from ctypes.util import find_library  ## preguntar a Wilma por "libirimager.dll"
-numpy 
-ctypes
-cv2
-os
-datetime
-google.cloud
+Proceso 2 Optris:  
+from ctypes.util import find_library  ## preguntar a Wilma por "libirimager.dll"  
+numpy  
+ctypes  
+cv2  
+os  
+datetime  
+google.cloud  
 
 ## Uso
 
