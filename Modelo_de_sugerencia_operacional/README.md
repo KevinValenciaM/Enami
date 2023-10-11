@@ -28,3 +28,11 @@ Ademas se genera un filtro para eliminar outlayers y analisar los momentos en lo
 ## Análisis de correlación
 
 ![](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/correlacion.png)
+
+Análisis de correlación:  
+correlación entre Ley cu y alimentación Sio2(-0.21)  
+correlación Ley Fe304 y Concentrado de S(0.2)  
+Cruce de temperatura desde cámaras:  
+Correlación temperatura promedio mínima con alimentación carga fría(0.25)  
+Correlación temperatura promedio y máxima con Alimentación Sio2(0.22 y 0.28)  
+
