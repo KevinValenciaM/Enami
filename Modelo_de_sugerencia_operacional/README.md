@@ -8,7 +8,7 @@ Alimentacion Si02 [TPH]
 Alimentacion Carga Fria [TPH]  
 Coef_o2  
 
--Variables de terreno
+-Variables de terreno  
 Temperatura M.B. [°C]  
 Temperatura Esc. [°C]  
 
