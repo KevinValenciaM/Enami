@@ -35,7 +35,7 @@ google.cloud
 ## Uso
 
 Cada proceso se debe ejecutar de forma independiente.
-El proceso 1 Hikvision guarda la informacion capturada por la camara en forma de video(.avi), este archivo es subido a la nube y posteriormente es borrado del disco.
+El proceso 1 Hikvision guarda la informacion capturada por la camara en forma de video(.avi), este archivo es subido a la nube y posteriormente es borrado del disco.  
 El proceso 2 Optris guarda la informacion capturada por la camara en formato csv, este archivo es subido a la nube y posteriormente es borrado del disco.
 
 El codigo guarda los archivos en un bucket del proyecto data analytics brasil de Ntt
