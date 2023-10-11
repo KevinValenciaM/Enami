@@ -16,13 +16,13 @@ Python 3.7.9
 Librerias necesarias:  
 Proceso 1 Hikvision:
 
-cv2  
-numpy  
-hikvisionapi
-datetime
-time
-os
-google.cloud
+cv2 
+numpy   
+hikvisionapi 
+datetime 
+time 
+os 
+google.cloud 
 
 Proceso 2 Optris:
 from ctypes.util import find_library  ## preguntar a Wilma por "libirimager.dll"
