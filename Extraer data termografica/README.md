@@ -40,4 +40,4 @@ El proceso 2 Optris guarda la informacion capturada por la camara en formato csv
 
 El codigo guarda los archivos en un bucket del proyecto data analytics brasil de Ntt
 
-Considerar los datos guardados cada dia por cada camara tienen un peso de alrededor de 12 GB.
+Los datos guardados cada dia por cada camara tienen un peso de alrededor de 12 GB.
