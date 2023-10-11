@@ -15,8 +15,8 @@ Python 3.7.9
 
 Librerias necesarias:  
 Proceso 1 Hikvision:
-cv2 
-numpy 
+cv2  
+numpy  
 hikvisionapi 
 datetime 
 time 
