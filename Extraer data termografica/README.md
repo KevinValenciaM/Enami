@@ -13,12 +13,11 @@ Archivo llave: "nombre_llave.json"
 Ejecutado en Windows 10 pro
 Python 3.7.9
 
-Librerias necesarias:
-
+Librerias necesarias:  
 Proceso 1 Hikvision:
 
-cv2
-numpy
+cv2  
+numpy  
 hikvisionapi
 datetime
 time
