@@ -27,4 +27,4 @@ Ademas se genera un filtro para eliminar outlayers y analisar los momentos en lo
 
 ## Análisis de correlación
 
-![](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/correlacion.png)
+![]()
