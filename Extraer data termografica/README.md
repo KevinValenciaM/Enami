@@ -1,8 +1,8 @@
 ### Extraccion y guardado de Data en la nube
 
-Existen 2 procesos de extraccion de datos, uno por camara termografica.
-1: proceso para camara Hikvision
-2: proceso para camara Optris
+Existen 2 procesos de extraccion de datos, uno por camara termografica.  
+1: proceso para camara Hikvision  
+2: proceso para camara Optris  
 Estos procesos consisten en extraer la informacion termografica de las camaras y subirlas a un bucket de Google Cloud Platform utilizando Python.
 
 ## Requeriemientos
