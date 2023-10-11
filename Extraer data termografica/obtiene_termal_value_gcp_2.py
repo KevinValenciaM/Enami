@@ -9,9 +9,11 @@ import datetime
 from os import remove
 from google.cloud import storage
 
+#Establecer conexion con proyecto en gcp mediante archivo llave(.json)
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'credential_firebase.json'
 storage_client = storage.Client()
 
+#Funcion para subir archivos a bucket de gcp
 def upload_to_bucket(blob_name, file_path, bucket_name):
     '''
     Upload file to a bucket
@@ -123,11 +125,6 @@ if __name__ == "__main__":
                     remove(texto) #remover archivo despues de subir a gcp
                     print("archivo", hora_actual+".csv", "eliminado")
                 count+=1
-                #display palette image
-                #cv2.imshow('image',np_img.reshape(palette_height.value, palette_width.value, 3)[:,:,::-1])
-                #upload_to_bucket('Optris/'+hora_actual+".csv", texto, 'enami-datos') #subir archivo a gcp
-                #upload_to_bucket('Optris/'+hora_actual+".csv", texto, 'enami-datos') #subir archivo a gcp
-                #print("archivo", hora_actual+".csv", "en bucket")
-                #remove("archivo.txt") #borrar archivo luego de subir a gcp
+               
         # clean shutdown
         libir.evo_irimager_terminate()
