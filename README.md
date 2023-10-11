@@ -14,4 +14,8 @@ Codigo: #Heading 1 link [Hikvision](https://github.com/KevinValenciaM/Enami/blob
 2. Extraccion a travez de camara Optris
 Codigo: #Heading 1 link [Optris](https://github.com/KevinValenciaM/Enami/blob/main/Extraer%20data%20termografica/obtiene_termal_value_gcp_2.py)
 
+### 2 Modelo de desgaste frontal y modelo de desgaste de toberas
 
+### 3 Modelo de sugerencia operacional
+
+### 4 Modelo de prediccion de temperatura interna
