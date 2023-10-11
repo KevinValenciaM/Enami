@@ -23,3 +23,7 @@ Ley Fe304 Esc. [%]
 Debido a la diferencia de periodicidad de datos se realiza lo siguiente:  
 Al tener muestras por día se realiza un relleno de datos con ese valor cada 5 minutos y para muestras con varios valores por día , se realiza un relleno de datos faltantes con el valor siguiente más cercano (backfill).
 
+Ademas se genera un filtro para eliminar outlayers y analisar los momentos en los que se encuentra trabajando el C.T. con concentrado, esto corresponde a un filtro de la tasa de alimentación entre Q1 Y Q3(28,1 TPH a 89,3 TPH).
+
+
+
