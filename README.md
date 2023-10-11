@@ -23,10 +23,11 @@ Codigo: [Optris](https://github.com/KevinValenciaM/Enami/blob/main/Extraer%20dat
 
 Este proceso consiste en generar sugerencias en el control del proceso del Convertidor teniente de Enami a traves de datos de operacion recopilados.
 
+
 -creacion de dataset con datos entregados por enami, cruce de datos
 -variables, limpieza y relleno de datos faltantes
 -estudio de correlacion
 -analisis de temporalidad
-
+-cruce de datos termograficos
 
 ### 4 Modelo de prediccion de temperatura interna
