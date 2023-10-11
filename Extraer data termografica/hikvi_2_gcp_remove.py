@@ -10,9 +10,11 @@ import os
 from os import remove
 from google.cloud import storage
 
+#Establecer conexion con proyecto en gcp mediante archivo llave(.json)
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'credential_firebase.json'
 storage_client = storage.Client()
 
+#funcion para subir archivos a GCP
 def upload_to_bucket(blob_name, file_path, bucket_name):
     '''
     Upload file to a bucket
@@ -25,8 +27,7 @@ def upload_to_bucket(blob_name, file_path, bucket_name):
     blob.upload_from_filename(file_path)
     return blob
 
-
-
+#Conexion con camara Hikvision y subir archivo a bucket en gcp
 
 try:
     cam = Client('http://192.168.29.179', 'admin', 'researchlabs1')
@@ -55,10 +56,9 @@ try:
                 cont += 1
             except Exception as e:
                 print(f"Error: {e}")
-                time.sleep(60) #hasta 15 min progesivo
-                # Puedes agregar un tiempo de espera o realizar alguna otra acción de recuperación aquí.
+                time.sleep(60) #espera de 1 min
+                # se agrega un tiempo de espera
                 pass
-        #upload_to_bucket('videos/'+ texto, texto, 'enami-datos') #subir archivo a gcp
         cv2.destroyAllWindows()
         video1.release()
         upload_to_bucket('videos/'+ texto, texto, 'enami-datos') #subir archivo a gcp
