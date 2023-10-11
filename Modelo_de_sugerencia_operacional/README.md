@@ -29,10 +29,26 @@ Ademas se genera un filtro para eliminar outlayers y analisar los momentos en lo
 
 ![](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/correlacion.png)
 
-Análisis de correlación:  
+Del grafico de correlación se puede ver que existe:  
 correlación entre Ley cu y alimentación Sio2(-0.21)  
 correlación Ley Fe304 y Concentrado de S(0.2)  
 Cruce de temperatura desde cámaras:  
 Correlación temperatura promedio mínima con alimentación carga fría(0.25)  
 Correlación temperatura promedio y máxima con Alimentación Sio2(0.22 y 0.28)  
+
+## Análisis de temporalidad
+
+El objetivo de este análisis es determinar el tiempo de respuesta de la temperatura en base a los cambios en las variables de entrada del sistema.  
+El análisis se realiza para 1021 periodos donde hubo continuidad operacional del C.T.
+Se registran los momentos de máximo peak de correlación en cada periodo.
+Se genera un gráfico con un histograma de peaks de correlacion de todos los periodos.
+
+![](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/temporalidad.PNG)
+
+No se encuentra un tiempo común de desfase de temperatura
+
+## Analisis 
+
+## Árbol de desición
+
 
