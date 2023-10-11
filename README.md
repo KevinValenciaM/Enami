@@ -8,10 +8,10 @@ Existen 2 procesos de extraccion de datos:
 
 Descripcion de los procesos [Detalle](https://github.com/KevinValenciaM/Enami/blob/main/Extraer%20data%20termografica/README.md)
 
-1. Extraccion a travez de camara hikvision
+1. Extraccion de datos de camara hikvision
 Codigo: [Hikvision](https://github.com/KevinValenciaM/Enami/blob/main/Extraer%20data%20termografica/hikvi_2_gcp_remove.py)
    
-2. Extraccion a travez de camara Optris
+2. Extraccion de datos de camara Optris
 Codigo: [Optris](https://github.com/KevinValenciaM/Enami/blob/main/Extraer%20data%20termografica/obtiene_termal_value_gcp_2.py)
 
 ### 2 Modelo de desgaste frontal y modelo de desgaste de toberas
