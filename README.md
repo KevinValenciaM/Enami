@@ -6,7 +6,7 @@ Este repositorio contiene los distintos procesos asociados al pryecto "Pruebas d
 ### 1 Extraccion y guardados de data recolectada a travez de camaras termograficas
 Existen 2 procesos de extraccion de datos:
 
-Detalles link [Instructivo](https://github.com/KevinValenciaM/Enami/blob/main/Extraer%20data%20termografica/README.md)
+Detalles del proceso [Instructivo](https://github.com/KevinValenciaM/Enami/blob/main/Extraer%20data%20termografica/README.md)
 
 1. Extraccion a travez de camara hikvision
 Codigo: #Heading 1 link [Hikvision](https://github.com/KevinValenciaM/Enami/blob/main/Extraer%20data%20termografica/hikvi_2_gcp_remove.py)
