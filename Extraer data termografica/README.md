@@ -14,7 +14,9 @@ Ejecutado en Windows 10 pro
 Python 3.7.9
 
 Librerias necesarias:
+
 Proceso 1 Hikvision:
+
 cv2
 numpy
 hikvisionapi
@@ -40,4 +42,4 @@ El proceso 2 Optris guarda la informacion capturada por la camara en formato csv
 
 El codigo guarda los archivos en un bucket del proyecto data analytics brasil de Ntt
 
-Considerar los datos guardados cada dia por cada camara ronda los 12 Gb.
+Considerar los datos guardados cada dia por cada camara tienen un peso de alrededor de 12 GB.
