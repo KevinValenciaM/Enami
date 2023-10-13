@@ -24,7 +24,7 @@ def upload_to_bucket(blob_name, file_path, bucket_name):
     '''
     bucket = storage_client.get_bucket(bucket_name)
     blob = bucket.blob(blob_name)
-    blob.upload_from_filename(file_path)
+    blob.upload_from_filename(file_path, timeout=150) # timeout=60 para aumentar el tiempo permitido de subida
     return blob
 
 #Conexion con camara Hikvision y subir archivo a bucket en gcp
