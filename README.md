@@ -29,10 +29,10 @@ Existen 2 modelos de desgaste:
 
 Este proceso consiste en generar sugerencias en el control del proceso del Convertidor teniente de Enami a traves de datos de operacion recopilados.
 
--creacion de dataset con datos entregados por enami [Creación del set de datos](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/README.md)  
--variables, limpieza y relleno de datos faltantes  
+-creacion de dataset con datos entregados por enami  
+variables, limpieza, relleno de datos faltantes y cruce de datos termograficos  
 -estudio de correlacion  
 -analisis de temporalidad  
--cruce de datos termograficos  
-
+-Arbol de desición  
+Detalle del proceso: [Creación del set de datos](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/README.md) 
 ### 4 Modelo de prediccion de temperatura interna
