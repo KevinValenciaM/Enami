@@ -19,6 +19,12 @@ Codigo: [Optris](https://github.com/KevinValenciaM/Enami/blob/main/Extraer%20dat
 
 ### 2 Modelo de desgaste frontal y modelo de desgaste de toberas
 
+Existen 2 modelos de desgaste:
+
+1. Modelo de desgaste frontal
+2. Modelo de desgaste secotr toberas
+
+
 ### 3 Modelo de sugerencia operacional
 
 Este proceso consiste en generar sugerencias en el control del proceso del Convertidor teniente de Enami a traves de datos de operacion recopilados.
