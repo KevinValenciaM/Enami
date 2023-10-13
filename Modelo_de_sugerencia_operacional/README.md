@@ -25,6 +25,8 @@ Al tener muestras por día se realiza un relleno de datos con ese valor cada 5 m
 
 Ademas se genera un filtro para eliminar outlayers y analisar los momentos en los que se encuentra trabajando el C.T. con concentrado, esto corresponde a un filtro de la tasa de alimentación entre Q1 Y Q3(28,1 TPH a 89,3 TPH).
 
+El codigo de creacion de dataset se encuentra en un notebook con el paso a paso desde los archivos entregados por Enami: ![Creacion dataset](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/Creacion_dataset.ipynb)
+
 ## Análisis de correlación
 
 ![](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/correlacion.png)
