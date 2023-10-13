@@ -47,8 +47,12 @@ Se genera un gráfico con un histograma de peaks de correlacion de todos los per
 
 No se encuentra un tiempo común de desfase de temperatura
 
-## Analisis 
-
 ## Árbol de desición
+
+Búsqueda de parámetros de las variables que repercutan en una mejora del proceso mediante la metodología de un árbol de decisión.
+Ingresando las nuevas variables de temperatura al árbol se observa que puede existir una relación influyente para mantener la calidad de las salidas tanto para la ley de cobre en M.B. como la Magnetita en la escoria, sin embargo, hay que considerar que los datos para estas pruebas son pocos.
+
+![](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/arbol.PNG)
+
 
 
