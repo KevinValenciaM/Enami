@@ -13,24 +13,8 @@ Archivo llave: "nombre_llave.json"
 Ejecutado en Windows 10 pro
 Python 3.7.9
 
-Librerias necesarias:  
-Proceso 1 Hikvision:  
-cv2  
-numpy  
-hikvisionapi  
-datetime  
-time  
-os  
-google.cloud  
-
-Proceso 2 Optris:  
-from ctypes.util import find_library  # Necesaria para buscar libreria utilizada para la conexion con camara optris
-numpy  
-ctypes  
-cv2  
-os  
-datetime  
-google.cloud  
+Librerias necesarias para ambos procesos:  
+[Archivo requirements](https://github.com/KevinValenciaM/Enami/blob/main/Extraer%20data%20termografica/requirements.txt)
 
 ## Uso
 
