@@ -23,7 +23,7 @@ def upload_to_bucket(blob_name, file_path, bucket_name):
     '''
     bucket = storage_client.get_bucket(bucket_name)
     blob = bucket.blob(blob_name)
-    blob.upload_from_filename(file_path)
+    blob.upload_from_filename(file_path, timeout=150) #timeout de aumento de espera de subida
     return blob
 
 #Define EvoIRFrameMetadata structure for additional frame infos
