@@ -24,7 +24,7 @@ os
 google.cloud  
 
 Proceso 2 Optris:  
-from ctypes.util import find_library  ## preguntar a Wilma por "libirimager.dll"  
+from ctypes.util import find_library  # Necesaria para buscar libreria utilizada para la conexion con camara optris
 numpy  
 ctypes  
 cv2  
@@ -41,3 +41,5 @@ El proceso 2 Optris guarda la informacion capturada por la camara en formato csv
 El codigo guarda los archivos en un bucket del proyecto data analytics brasil de Ntt
 
 Los datos guardados cada dia por cada camara tienen un peso de alrededor de 12 GB.
+
+Considerar posibles caidas del proceso debido a un tiempo de espera prolongado en alguna etapa de los procesos, esto puede ser causado po una baja velocidad de conexion a  internet. El tiempo de espera para subir un archivo a gcp es de maximo 2 minutos 30 segundos (se puede cambiar).
