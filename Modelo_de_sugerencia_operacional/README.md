@@ -48,7 +48,7 @@ Se genera un gráfico con un histograma de peaks de correlacion de todos los per
 ![](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/temporalidad.PNG)
 
 No se encuentra un tiempo común de desfase de temperatura
-
+[Codigo analisis temporal](https://github.com/KevinValenciaM/Enami/blob/main/Modelo_de_sugerencia_operacional/temporalidad.PNG)
 ## Árbol de desición
 
 Búsqueda de parámetros de las variables que repercutan en una mejora del proceso mediante la metodología de un árbol de decisión.
